@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Next Pin: Gym Progress Tracker</title>
+  <meta name="description" content="Log your gym workouts in seconds. Next Pin tells you exactly when to move the pin and lift heavier.">
+  <meta property="og:title" content="Next Pin: Track it. Beat it. Move the pin.">
+  <meta property="og:description" content="The fastest way to log machine workouts and keep progressing.">
+  <meta property="og:image" content="https://getnextpin.com/icon.png">
+  <link rel="icon" href="icon.png">
+  <style>
+    :root {
+      --orange: #FF6B2B;
+      --ink: #17141C;
+      --text: #FFFFFF;
+      --muted: rgba(255, 255, 255, 0.65);
+      --card: rgba(255, 255, 255, 0.07);
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 85% 0%, rgba(255, 107, 43, 0.5), transparent 60%), var(--ink);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 48px 16px;
+    }
+    main { width: 100%; max-width: 440px; text-align: center; }
+    .icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45); }
+    .brand { margin-top: 20px; font-weight: 900; letter-spacing: 0.18em; font-size: 15px; }
+    h1 { margin-top: 18px; font-size: 40px; line-height: 1.05; font-weight: 900; }
+    h1 span { color: var(--orange); }
+    .lede { margin-top: 14px; color: var(--muted); font-size: 18px; line-height: 1.45; }
+    .cta {
+      display: inline-block; margin-top: 28px; padding: 16px 28px; border-radius: 14px;
+      background: var(--orange); color: var(--ink); font-weight: 800; font-size: 17px; text-decoration: none;
+    }
+    .cta.soon { opacity: 0.9; cursor: default; }
+    .note { margin-top: 10px; color: var(--muted); font-size: 14px; }
+    ul { list-style: none; padding: 0; margin-top: 36px; display: grid; gap: 10px; text-align: left; }
+    li { background: var(--card); border-radius: 14px; padding: 14px 16px; font-size: 16px; line-height: 1.4; }
+    li b { color: var(--orange); }
+    footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+    footer b { color: var(--orange); }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="icon" src="icon.png" alt="Next Pin app icon">
+    <div class="brand">NEXT PIN</div>
+    <h1>Track it. Beat it. <span>Move the pin.</span></h1>
+    <p class="lede">Log your gym workout in seconds. Next Pin tells you exactly when to go heavier, so you keep getting stronger.</p>
+
+    <!-- Launch day: replace with the real App Store link, e.g. https://apps.apple.com/app/idXXXXXXXXXX -->
+    <a class="cta soon" id="download">Coming soon to the App Store</a>
+    <p class="note">Free for iPhone.</p>
+
+    <ul>
+      <li><b>One tap per set.</b> Your weights are filled in, so you just lift and check it off.</li>
+      <li><b>Know when to move the pin.</b> Hit your reps and Next Pin tells you to go heavier next time.</li>
+      <li><b>Machines, dumbbells, bodyweight.</b> Built for the equipment in your everyday gym.</li>
+      <li><b>Share your wins.</b> Turn a workout into a story-ready card in one tap.</li>
+    </ul>
+
+    <footer><b>#NextPin</b> · getnextpin.com<br><a href="/support" style="color:inherit">Support</a> · <a href="/privacy" style="color:inherit">Privacy</a> · <a href="/terms" style="color:inherit">Terms</a></footer>
+  </main>
+</body>
+</html>
